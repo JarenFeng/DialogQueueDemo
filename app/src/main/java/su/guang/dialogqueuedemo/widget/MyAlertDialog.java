@@ -36,6 +36,11 @@ public class MyAlertDialog {
         this.dialogPro = dialogPro;
     }
 
+    /**
+     * 显示Dialog
+     *
+     * @see MyAlertDialog#show(MyAlertDialog dialog)
+     */
     public void show() {
         show(this);
     }
@@ -45,7 +50,7 @@ public class MyAlertDialog {
      * @param dialog 待显示的对话框
      *               如果为null，表示继续显示Queue中其他的dialog
      */
-    public void show(MyAlertDialog dialog){
+    private void show(MyAlertDialog dialog){
             if(dialog != null){
                 DialogManager.getDialogQueue().offer(dialog);
             }

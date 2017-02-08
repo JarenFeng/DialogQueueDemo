@@ -8,7 +8,8 @@ import su.guang.dialogqueuedemo.widget.MyAlertDialog;
 /**
  * Dialog管理队列
  * <p>可按优先级显示Dialog，优先级相同时，优先队尾显示</p>
- * <p>e.g.<br/>
+ * <p>如：
+ * <pre class="prettyprint">
  *     dialog1.setPriority(1);<br/>
  *     dialog1.show();<br/>
  *     dialog2.setPriority(2);<br/>
@@ -17,8 +18,9 @@ import su.guang.dialogqueuedemo.widget.MyAlertDialog;
  *     dialog3.show();<br/>
  *     dialog4.setPriority(2);<br/>
  *     dialog4.show();<br/>
- *     显示顺序为dialog1→dialog3→dialog4→dialog2。
- *     </p>
+ *     </pre>
+ * 显示顺序为dialog1→dialog3→dialog4→dialog2。</p>
+ * <br/>
  * Created by Jaren on 2016/12/21.
  */
 
