@@ -23,5 +23,5 @@ dialog4.show();
 
 ![demo](https://github.com/Guangsu/DialogQueueDemo/blob/master/demo.gif)
 
-   感谢
+### 感谢
    [AlertDialogPro](https://github.com/fengdai/AlertDialogPro)
