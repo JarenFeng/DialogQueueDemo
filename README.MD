@@ -19,6 +19,9 @@ dialog4.show();
 
 
 
-显示顺序为dialog1→dialog3→dialog4→dialog2。
+   显示顺序为dialog1→dialog3→dialog4→dialog2。
 
 ![demo](https://github.com/Guangsu/DialogQueueDemo/blob/master/demo.gif)
+
+   感谢
+   [AlertDialogPro](https://github.com/fengdai/AlertDialogPro)
